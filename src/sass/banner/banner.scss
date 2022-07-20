@@ -1,0 +1,10 @@
+.banner{
+  padding: calculate-gap(3) $base-gap calculate-gap(3) $base-gap;
+  background-color: $main-brand;
+
+  &__image{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+  }
+}
