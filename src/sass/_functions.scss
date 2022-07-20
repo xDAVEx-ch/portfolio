@@ -1,0 +1,4 @@
+@function calculate-gap($size){
+  $new-gap: 20 * $size;
+  @return #{$new-gap}px;
+}
