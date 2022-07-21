@@ -1,0 +1,15 @@
+.about{
+  padding: calculate-gap(3) $base-gap calculate-gap(3) $base-gap;
+}
+.about__title{
+  margin-bottom: 10px;
+}
+
+.about__description{
+  margin-bottom: $base-gap;
+}
+
+.about__image{
+  display: block;
+  width: 80%;
+}
