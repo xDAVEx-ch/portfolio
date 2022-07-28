@@ -14,10 +14,18 @@
         <div class="col-md-4">
           <nav>
             <ul class="flex menu">
-              <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">About Me</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Projects</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">About Me</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Projects</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Contact</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -30,7 +38,11 @@
           <h1 class="">Amateur Designer and Professional Front End</h1>
         </div>
         <div class="col-md-5 flex">
-          <img class="banner__image" src="./assets/main-image.png" alt="studying boy writting on notebook">
+          <img
+            class="banner__image"
+            src="./assets/main-image.png"
+            alt="studying boy writting on notebook"
+          />
         </div>
       </div>
     </section>
@@ -38,30 +50,132 @@
     <section class="about">
       <div class="row middle-xs">
         <div class="col-md-3">
-          <img 
-            src="./assets/about-image.png" 
-            alt="Stading up boy with hands inside his pockets" 
+          <img
+            src="./assets/about-image.png"
+            alt="Stading up boy with hands inside his pockets"
             class="about__image"
-          >
+          />
         </div>
         <div class="col-md">
           <div>
             <h2 class="about__title">Hi! I'm David</h2>
-            <p class="about__description">A friendly guy who likes to create visual elements through new concepts I learn</p>
             <p class="about__description">
-              I studied in <a href="https://ucenfotec.ac.cr/">Universidad Cenfotec</a> with a degree in sofware Development
-              where I developed my interest for technology and participated different proyects.
+              A friendly guy who likes to create visual elements through new
+              concepts I learn
             </p>
             <p class="about__description">
-              My most recent work was with <a href="https://betasolutions.tech/">Beta Tech Solutions</a>. 
-              During this time I have advanced my knowledge within this industry working on 
-              modules for the ERP Odoo and developing the website for the Costa Rica 
-              Tennis Club, along with its mobile application using React and React Native respectively.
+              I studied in
+              <a href="https://ucenfotec.ac.cr/">Universidad Cenfotec</a> with a
+              degree in sofware Development where I developed my interest for
+              technology and participated different proyects.
+            </p>
+            <p class="about__description">
+              My most recent work was with
+              <a href="https://betasolutions.tech/">Beta Tech Solutions</a>.
+              During this time I have advanced my knowledge within this industry
+              working on modules for the ERP Odoo and developing the website for
+              the Costa Rica Tennis Club, along with its mobile application
+              using React and React Native respectively.
             </p>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="projects">
+      <h2 class="projects__title">My Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <div class="project__backdrop">
+            <h3 class="project__name">Food On the Highway Event</h3>
+            <p class="project__details">
+              Technologies involved: Bootstrap, React, Redux, Redux Sagas,
+              Firebase, Git
+            </p>
+            <a href="https://food-on-the-highway.web.app/">
+              <button class="project__button">Open</button>
+            </a>
+          </div>
+          <img
+            src="./assets/Food-On-the Highway.png"
+            alt="First image project showcase"
+            class="project__image"
+          />
+        </div>
+
+        <div class="project">
+          <div class="project__backdrop">
+            <h3 class="project__name">Gaming Comunity</h3>
+            <p class="project__details">
+              Technologies involved: React Bootstrap, React, Redux, Git, Lunacy,
+              SASS
+            </p>
+            <a href="https://github.com/xDAVEx-ch/gaming-community">
+              <button class="project__button">Open</button>
+            </a>
+          </div>
+          <img
+            src="./assets/gaming-comunity.png"
+            alt="Second image project showcase"
+            class="project__image"
+          />
+        </div>
+
+        <div class="project">
+          <div class="project__backdrop">
+            <h3 class="project__name">CRWN Clothing</h3>
+            <p class="project__details">
+              Technologies involved: React, Redux, Redux Sagas, Firebase, Git,
+              Styled Components
+            </p>
+            <a href="https://crown-demo-app.herokuapp.com/">
+              <button class="project__button">Open</button>
+            </a>
+          </div>
+          <img
+            src="./assets/CRWN-Clothing.png"
+            alt="Third image project showcase"
+            class="project__image"
+          />
+        </div>
+
+        <div class="projects__inner-grid">
+          <div class="project">
+            <div class="project__backdrop">
+              <h3 class="project__name">Midnight Food Craving</h3>
+              <p class="project__details">
+                Technologies involved: React Native, Context API, Expo, Git,
+                React Navigation
+              </p>
+              <a href="https://github.com/xDAVEx-ch/midnight-food-craving">
+                <button class="project__button">Open</button>
+              </a>
+            </div>
+            <img
+              src="./assets/meals.png"
+              alt="Fourth image project showcase"
+              class="project__image"
+            />
+          </div>
+
+          <div class="project">
+            <div class="project__backdrop">
+              <h3 class="project__name">My Portfolio</h3>
+              <p class="project__details">
+                Technologies involved: HTML, SASS, Webpack, Git, Lunacy, BEM,
+                GSAP
+              </p>
+              <a href="#"><button class="project__button">Open</button></a>
+            </div>
+            <img
+              src="./assets/main-page.png"
+              alt="Fifth image project showcase"
+              class="project__image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
