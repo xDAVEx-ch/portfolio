@@ -1,0 +1,15 @@
+.footer{
+  text-align: center;
+  background-color: $main-brand;
+  padding: calculate-gap(3) $base-gap calculate-gap(3) $base-gap;
+}
+
+.footer__quote{
+  width: 33%;
+  margin: auto;
+}
+
+.footer__copy{
+  display: block;
+  margin-top: $base-gap;
+}

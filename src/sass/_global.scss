@@ -40,3 +40,13 @@ p{
   line-height: 1.5;
   font-size: $base;
 }
+
+blockquote{
+  font-weight: lighter;
+  font-style: italic;
+}
+
+small{
+  font-size: $small;
+  font-weight: 500;
+}
