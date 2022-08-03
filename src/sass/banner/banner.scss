@@ -2,9 +2,33 @@
   padding: calculate-gap(3) $base-gap calculate-gap(3) $base-gap;
   background-color: $main-brand;
 
+    @media screen and (max-width: 1100px){
+      h1{
+        font-size: $tablet-h1;
+        text-align: center;
+      }
+    }
+
+    @include breakpoint-down(small){
+      
+      padding: calculate-gap(3) calculate-gap(1) calculate-gap(3) calculate-gap(1);
+      h1{
+        font-size: $mobile-h1;
+      }
+    }
+
   &__image{
     display: block;
     width: 100%;
     margin-left: auto;
+
+    @media screen and (max-width: 1024px) {
+      width: 80%;
+      margin: auto;
+    }
+
+    @include breakpoint-down(small){
+      width: 85%;
+    }
   }
 }
