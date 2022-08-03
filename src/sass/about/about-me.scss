@@ -3,6 +3,12 @@
 }
 .about__title{
   margin-bottom: 10px;
+
+  @include breakpoint-down(small){
+    &{
+      font-size: $mobile-h2;
+    }
+  }
 }
 
 .about__description{
@@ -10,6 +16,11 @@
 }
 
 .about__image{
-  display: block;
   width: 80%;
+
+  @include breakpoint-down(medium){
+    justify-content: center;
+    width: 100%;
+    margin-left: calculate-gap(4); //Balancing out left space from image
+  }
 }

@@ -22,6 +22,34 @@ h3{
   font-size: $h3;
 }
 
+@include breakpoint-down(medium){
+  h1{
+    font-size: $tablet-h1;
+  }
+
+  h2{
+    font-size: $tablet-h2;
+  }
+
+  h3{
+    font-size: $tablet-h3;
+  }
+}
+
+@include breakpoint-down(small){
+  h1{
+    font-size: $mobile-h1;
+  }
+
+  h2{
+    font-size: $mobile-h2;
+  }
+
+  h3{
+    font-size: $mobile-h3;
+  }
+}
+
 ul{
   list-style: none;
 }
