@@ -12,10 +12,17 @@
 
 .projects__grid{
   display: grid;
-  //grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: 350px 350px 350px;
   column-gap: $base-gap;
   justify-items: center;
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .projects__inner-grid{
@@ -24,6 +31,21 @@
   justify-items: center;
   grid-template-columns: 1fr 1fr;
   column-gap: $base-gap;
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  @media screen and (max-width: 1200px) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+    grid-row-start: 2;
+    grid-column-end: auto;
+
+    &:first-child{
+      margin-bottom: 0;
+    }
+  }
 }
